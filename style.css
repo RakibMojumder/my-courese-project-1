@@ -74,7 +74,7 @@ section {
 /* -------dream section------ */
 
 #dream-section {
-    background: url(./images/./dream-bg.png) no-repeat right center
+    background: url(./images/./dream-bg.png) no-repeat right 70%;
 }
 
 .dream-section-container {
@@ -120,7 +120,7 @@ section {
 
 .experience-container {
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 .experience-heading {
@@ -159,4 +159,10 @@ section {
     padding: 0 30px;
     border-left: 7px solid blue;
     box-shadow: 4px 4px 40px gray;
+}
+
+footer p {
+    text-align: center;
+    color: #606060;
+    padding: 20px 0;
 }

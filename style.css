@@ -19,7 +19,8 @@ section {
 }
 
 .container-fluid {
-    width: 1380px;
+    width: 1280px;
+    margin: auto;
 }
 
 .header-container {
@@ -109,4 +110,53 @@ section {
     color: #606060;
     font-size: 18px;
     text-align: justify;
+}
+
+
+/* Experience section */
+#experiece-section {
+    background: url(./images/exp-bg.png) no-repeat -15px 75%;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.experience-heading {
+    font-size: 40px;
+    padding: 40px 20px;
+}
+
+.experience-left {
+    height: 450px;
+    width: 40%;
+    padding: 0 30px;
+    border-left: 7px solid #FF6347;
+    box-shadow: 4px 4px 40px gray;
+}
+
+.experience-container h1 {
+    font-size: 45px;
+    margin: 40px 0;
+}
+
+.experience-container h2 {
+    color: orange;
+    margin: 20px 0 40px 0;
+}
+
+.experience-container p {
+    margin: 40px 0;
+    color: #606060;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.experience-right {
+    height: 450px;
+    width: 40%;
+    padding: 0 30px;
+    border-left: 7px solid blue;
+    box-shadow: 4px 4px 40px gray;
 }

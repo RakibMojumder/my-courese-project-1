@@ -11,6 +11,7 @@ body {
 
 section {
     width: 1500px;
+    margin-bottom: 100px;
 }
 
 #header-section {
@@ -48,7 +49,7 @@ section {
     text-align: justify;
 }
 
-.header-left a {
+.link-button {
     background-image: linear-gradient(lightsalmon, tomato);
     font-size: 19px;
     border-radius: 15px;
@@ -72,7 +73,7 @@ section {
 /* -------dream section------ */
 
 #dream-section {
-    margin-top: 20px;
+    background: url(./images/./dream-bg.png) no-repeat right center
 }
 
 .dream-section-container {
@@ -108,14 +109,4 @@ section {
     color: #606060;
     font-size: 18px;
     text-align: justify;
-}
-
-.dream-right a {
-    background-image: linear-gradient(lightsalmon, tomato);
-    font-size: 19px;
-    border-radius: 15px;
-    text-decoration: none;
-    padding: 10px 40px;
-    color: #fff;
-    font-weight: 700;
 }

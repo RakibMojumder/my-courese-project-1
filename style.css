@@ -13,6 +13,10 @@ section {
     width: 1500px;
 }
 
+#header-section {
+    background: url(./images/./top-banner.png) no-repeat left top;
+}
+
 .container-fluid {
     width: 1380px;
 }
@@ -44,7 +48,7 @@ section {
 }
 
 .header-left a {
-    background-color: #FF694C;
+    background-image: linear-gradient(lightsalmon, tomato);
     font-size: 19px;
     border-radius: 15px;
     text-decoration: none;
